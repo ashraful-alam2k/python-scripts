@@ -37,7 +37,7 @@ def check_cpu_constrained():
 def main():
     checks = [
         (check_reboot, "Pending Reboot"),
-        (check_root_full, "Root Partition full")
+        #(check_root_full, "Root Partition full")
         (check_no_network,"No working network")
         (check_cpu_constrained,"CPU load too high")
     
